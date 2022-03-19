@@ -11,5 +11,6 @@ Update 2022-03-19
 On my current machine (A System76 Gen10 laptop)
 * 730 ms with g++ -Os
 * 770 ms with g++ -O17 (720 ms with clang)
+* 1110 ms with node 14.6
 * 1210 ms on chrome
 * 1550 ms with g++ -Og
