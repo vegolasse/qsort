@@ -48,7 +48,9 @@ function main() {
     let start = Date.now()
     dumbqsort(arr, 0, arrLength);
     let stop = Date.now()
-    document.getElementById("result").innerHTML = `Time: ${(stop-start).toFixed(1)} ms`
+    console.log( `Time: ${(stop-start).toFixed(1)} ms`);
    // debugDump(arr, arrLength);
     return 0;
 }
+
+main();

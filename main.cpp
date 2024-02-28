@@ -39,7 +39,7 @@ void dump(float *arr, int len) {
 
 int main(int argc, char *argv[]) {
     srand((unsigned int) time(NULL));
-    int arrLength = 10000000;
+    int arrLength = 100000000;
     float *arr = new float[arrLength];
     for (int i = 0; i < arrLength; ++i) {
         arr[i] = ((float) rand()) / RAND_MAX;
