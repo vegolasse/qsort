@@ -15,13 +15,14 @@ On my current machine (A System76 Gen10 laptop)
 * 1210 ms on chrome
 * 1550 ms with g++ -Og
 
-Update 2024-02-28 (Updated with Java 2024-04-18)
+Update 2024-02-28 (Updated with Java & C# 2024-04-18)
 Increased to 100 000 000 numbers (MacBook Pro M1 Max)
 * 9050 ms, C++, clang -O3 (15.0.0 )
-* 9682 ms, Java21.0.2+13 Oracle
+* 9682 ms, Javamm, Oracle JDK (21.0.2+13)
 * 10269 ms, JS, bun (1.0.29)
 * 10354 ms JS, Safari (17.3.1) 
 * 12488 ms, JS, node (21.6.2)
 * 12721 ms, JS, Chrome (122.0.6261.69)
 * 16082 ms, JS, Firefox (123.0)
 * 16160 ms, C++, clang -Og (15.0.0)
+* 20671 ms, C#, ms-dotnet C# (2.23.15, 8.0.24)
